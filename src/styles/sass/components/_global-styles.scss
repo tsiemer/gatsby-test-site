@@ -1,0 +1,79 @@
+@import './_variables.scss';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+
+    a{
+        text-decoration:none;
+        padding-right:20px;
+    
+    }
+    
+    .colorWhite{
+        color:white;
+    }
+    
+    .content-wrapper{
+        padding: 50px;
+    }
+    
+    
+    .fa-chevron-down{
+        position:absolute;
+        top:89vh;
+    }
+}
+
+
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+
+    .flex-item{
+        flex:1;
+    }
+}
+
+
+
+.button-container{
+    margin-top:50px;
+    
+    .button{
+        font-family:$normal-font;
+        color:$secondary-color-two;
+        background-color:lighten($primary-color, 4);
+        padding:15px 50px;
+        transition:all 0.8s;
+    
+        &:hover{
+            background-color: darken($primary-color, 6);
+    
+        }
+    }
+}
+
+.text-container{
+    max-width:80vw;
+    margin:0px auto;
+}
+
+
+.input-container {
+    background-color:#333;
+    border-radius:5px;
+
+    input{
+        background-color: lighten(#333, 3);
+        border:none;
+        margin:10px;
+        padding:10px 20px;
+        border-radius:5px;
+        color:white;
+    }
+}

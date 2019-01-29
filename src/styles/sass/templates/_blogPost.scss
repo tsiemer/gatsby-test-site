@@ -1,0 +1,62 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+.blog-post-container{
+    width:80vw;
+    margin:100px 0px 0px 10vw;
+
+    .blog-post{
+        background-color:#f1f1f1;
+        
+        padding:40px;
+        width:80vw;
+
+
+        h1{
+            font-family:$classy-font;
+        }
+        
+        h2, h3, h4, h5, h6{
+            font-family:$normal-font;
+            font-size:20px;
+            padding-top:25px;
+        }
+
+        .blog-date{
+            font-style:italic;
+            font-weight:normal;
+            font-size:18px;
+        }
+
+        .blog-post-content{
+            font-size:15px;
+        }
+    }
+}
+
+
+.posts-container{
+    margin:25vh auto;
+    width:60vw;
+    background-color:#f1f1f1;
+    padding:40px;
+    text-align:center;
+
+
+    .post-links-container{
+
+        .post-links{
+            padding:20px;
+            
+            a{
+                color:$primary-color-two;
+                transition:color 0.5s;
+                text-transform:capitalize;
+                font-family:$normal-font;
+
+                &:hover{
+                    color:$primary-color;
+                }
+            }
+        }
+    }
+}

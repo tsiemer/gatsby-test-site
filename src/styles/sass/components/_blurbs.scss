@@ -1,0 +1,45 @@
+.blurb{
+    background-color:$secondary-color-two;
+    margin:10px;
+
+    // Extensions to blurb
+    &.white{
+        background-color:white;
+    }
+
+
+    &.noImg{
+        align-self:flex-start;
+        overflow:scroll;  
+
+    }
+
+    .blurbImageContainer{
+        img {
+            max-width:100%;
+    
+        }
+
+    }
+    
+    .blurbContentContainer{
+        padding:30px 20px;
+
+        h3 {
+            color:$primary-color-two;
+            font-weight:400;
+            font-size:$header-three-font-size;
+            text-transform: uppercase;
+    
+        }
+
+        p {
+            color:$primary-color-two;
+            font-size:$primary-text-size;
+            
+        }
+
+    }
+}
+
+

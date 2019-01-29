@@ -1,0 +1,55 @@
+.navbar-colorLess{
+    position:fixed;
+    width:100vw;
+    padding:30px;
+    transition: 0.3s all;
+
+    .siteTitle-Link{
+        font-family: $classy-font;
+        
+        color:$navlink-color; 
+        font-size:35px;
+    }
+
+    a{
+        font-family: $normal-font;
+        color: $navlink-color;
+    }
+
+
+    .selected{
+        color:$selected-navlink-color;
+
+    }
+}
+
+
+.navbar-coloredIn{
+    background-color:$primary-color;
+    position:fixed;
+    width:100vw;
+    padding:30px;
+
+    .siteTitle-Link{
+        font-family: $classy-font;
+        color:$navlink-color; 
+        font-size:35px;
+    }
+
+    a{
+        color: $navlink-color;
+    }
+
+
+    .selected{
+        color:$selected-navlink-color;
+
+    }
+}
+
+
+.bottomBar {
+    background-color:$primary-color;
+    padding:30px 30px;
+    width:100vw;
+}

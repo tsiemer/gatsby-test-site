@@ -1,0 +1,28 @@
+.classyTitle{
+    font-family: $classy-font;
+    font-weight:normal;
+}
+
+.normalTitle{
+    font-weight:lighter;
+    line-height:80px;
+
+    &.text-section{
+        font-size:30px;
+
+    }
+}
+
+.normalSubTitle{
+    font-weight:lighter;
+}
+
+.introductionTitle{
+    padding-top:330px;
+    font-size:80px;
+}
+
+.centered{
+    width:100%;
+    text-align:center;
+}
